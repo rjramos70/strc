@@ -86,4 +86,4 @@ Esta APi foi desenvolvida com Node utilizando os seguintes pacotes:
 
 ## Autoria e contribuições
 
-**Renato Jiquiriçá Ramos**, professional com mais de 17 anos de experiência no setor de TI, com foco em Analista e Desenvolvedor de sistemas confiáveis, escaláveis e funcionais, visando ajudar as empresas a serem bem-sucedidas em seus negócios.. 
+**Renato Jiquiriçá Ramos**, professional com mais de 17 anos de experiência no setor de TI, com foco em Analista e Desenvolvedor de sistemas confiáveis, escaláveis e funcionais, visando ajudar as empresas a serem bem-sucedidas em seus negócios.
