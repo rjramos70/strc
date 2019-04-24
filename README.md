@@ -1,6 +1,6 @@
 # POC - ST RC
 
-Porva de conceito de API REST desenvolvida em Node que realizará operações em um banco de dados de funcionários.
+Prova de conceito de API REST desenvolvida em Node que realizará operações em um banco de dados de funcionários.
 
 <br>
 
