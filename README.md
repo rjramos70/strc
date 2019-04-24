@@ -2,9 +2,10 @@
 
 Porva de conceito de API REST desenvolvida em Node que realizará operações em um banco de dados de funcionários.
 
+>
 ## Pré-requisitos
 
-1. Tenha Node e NPM instaldo.
+1. Ter Node e NPM instalados na maquina.
 
 
 ## Base de Dados
