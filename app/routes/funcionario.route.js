@@ -11,5 +11,4 @@ router
 	.post('/funcionario', funcionario_controller.create);
 
 
-
 module.exports = router;
