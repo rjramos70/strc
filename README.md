@@ -4,7 +4,7 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
 
 <br>
 
-### Pré-requisitos
+## Pré-requisitos
 
 1. Ter Node e NPM instalados na maquina.
 <br>
@@ -16,7 +16,7 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
 <br>
 
 
-### Guia de instalação
+## Guia de instalação
 
 1. Fazer download do arquivo compactado do projeto.
 2. Descompacte o arquivo.
@@ -27,7 +27,7 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
     ```
 <br>
 
-### Como executar
+## Como executar
 
 1. Via terminal acesse a pasta do projeto após a instalação.
 2. Execute o comando: 
@@ -36,7 +36,7 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
     ```
 <br>
 
-### Requisitos da API
+## Requisitos da API
 
 Esta API tem os seguintes métodos implementados:
 
@@ -65,7 +65,7 @@ Esta API tem os seguintes métodos implementados:
 <br>
 <br>
 
-### Linguagem de programação
+## Linguagem de programação
 
 Esta APi foi desenvolvida com Node utilizando os seguintes pacotes:
 
@@ -77,13 +77,13 @@ Esta APi foi desenvolvida com Node utilizando os seguintes pacotes:
 * nodemon :  1.18.11 
 <br>
 
-### Melhorias Futuras na API
+## Melhorias Futuras na API
 
 1. Implementação da camada de autenticação com pacote 'jsonwebtoken'.
 2. Implementação de criptografia com o pacote 'bcryptjs'.
 3. Implementação da camada de persistência com 'sequelize'.
 <br>
 
-### Autoria e contribuições
+## Autoria e contribuições
 
 **Renato Jiquiriçá Ramos**, professional com mais de 17 anos de experiência no setor de TI, com foco em Analista e Desenvolvedor de sistemas confiáveis, escaláveis e funcionais, visando ajudar as empresas a serem bem-sucedidas em seus negócios.. 
