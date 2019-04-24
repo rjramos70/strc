@@ -2,17 +2,20 @@
 
 Porva de conceito de API REST desenvolvida em Node que realizará operações em um banco de dados de funcionários.
 
-
+<br>
+<br>
 
 ## Pré-requisitos
 
 1. Ter Node e NPM instalados na maquina.
-
+<br>
+<br>
 
 ## Base de Dados
 
 - Por se tratar de uma POC, esta API esta utizando um banco NoSQL (MongoDb) no mLab (https://mlab.com).
-
+<br>
+<br>
 
 ## Guia de instalação
 
@@ -23,7 +26,8 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
     ```
     npm install
     ```
-
+<br>
+<br>
 
 ## Como executar
 
@@ -32,7 +36,8 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
     ```
     nodemon app 
     ```
-
+<br>
+<br>
 
 ## Requisitos da API
 
@@ -57,7 +62,8 @@ Esta API tem os seguintes métodos implementados:
 - DELETE
 
     - delete: métdo que remove o funcionário com base no ID passado na URL. 
-
+<br>
+<br>
 
 **OBSERVAÇÃO**: _Como se trata de uma POC, não foi implementado criptografia e nem camada de autenticação._
 <br>
@@ -73,14 +79,16 @@ Esta APi foi desenvolvida com Node utilizando os seguintes pacotes:
 * express :  4.16.4
 * mongoose :  5.5.2
 * nodemon :  1.18.11 
-
+<br>
+<br>
 
 ## Melhorias Futuras na API
 
 1. Implementação da camada de autenticação com pacote 'jsonwebtoken'.
 2. Implementação de criptografia com o pacote 'bcryptjs'.
 3. Implementação da camada de persistência com 'sequelize'.
-
+<br>
+<br>
 
 ## Autoria e contribuições
 
