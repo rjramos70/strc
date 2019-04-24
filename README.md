@@ -2,7 +2,8 @@
 
 Porva de conceito de API REST desenvolvida em Node que realizará operações em um banco de dados de funcionários.
 
->
+
+
 ## Pré-requisitos
 
 1. Ter Node e NPM instalados na maquina.
@@ -13,7 +14,7 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
 - Por se tratar de uma POC, esta API esta utizando um banco NoSQL (MongoDb) no mLab (https://mlab.com).
 
 
-## Instalação da API
+## Guia de instalação
 
 1. Fazer download do arquivo compactado do projeto.
 2. Descompacte o arquivo.
@@ -24,7 +25,7 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
     ```
 
 
-## Como executar a API
+## Como executar
 
 1. Via terminal acesse a pasta do projeto após a instalação.
 2. Execute o comando: 
@@ -61,8 +62,25 @@ Esta API tem os seguintes métodos implementados:
 **OBSERVAÇÃO**: _Como se trata de uma POC, não foi implementado criptografia e nem camada de autenticação._
 
 
+## Linguagem de programação
+
+Esta APi foi desenvolvida com Node utilizando os seguintes pacotes:
+
+* body-parser : 1.18.3
+* consign : 0.1.6
+* cors :  2.8.5
+* express :  4.16.4
+* mongoose :  5.5.2
+* nodemon :  1.18.11 
+
+
 ## Melhorias Futuras na API
 
 1. Implementação da camada de autenticação com pacote 'jsonwebtoken'.
 2. Implementação de criptografia com o pacote 'bcryptjs'.
 3. Implementação da camada de persistência com 'sequelize'.
+
+
+## Autoria e contribuições
+
+- Renato Jiquiriçá Ramos
