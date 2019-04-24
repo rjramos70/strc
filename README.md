@@ -17,18 +17,24 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
 1. Fazer download do arquivo compactado do projeto.
 2. Descompacte o arquivo.
 3. Via terminal entre na pasta que acabou de ser descompactada.
-4. Execute o comando: npm install
+4. Execute o comando: 
+    ```
+    npm install
+    ```
 
 
 ## Como executar a API
 
 1. Via terminal acesse a pasta do projeto após a instalação.
-2. Execute o comando: nodemon app 
+2. Execute o comando: 
+    ```
+    nodemon app 
+    ```
 
 
-## Operações da API
+## Requisitos da API
 
-- Classe controller temos os seguintes métodos
+Esta API tem os seguintes métodos implementados:
 
 - GET
 
@@ -51,7 +57,7 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
     - delete: métdo que remove o funcionário com base no ID passado na URL. 
 
 
-OBSERVAÇÃO: Como se trata de uma POC, não foi implementado criptografia e nem camada de autenticação.
+**OBSERVAÇÃO**: _Como se trata de uma POC, não foi implementado criptografia e nem camada de autenticação._
 
 
 ## Melhorias Futuras na API
