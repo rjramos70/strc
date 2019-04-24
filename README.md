@@ -3,19 +3,18 @@
 Porva de conceito de API REST desenvolvida em Node que realizará operações em um banco de dados de funcionários.
 
 <br>
-<br>
 
 ## Pré-requisitos
 
 1. Ter Node e NPM instalados na maquina.
 <br>
-<br>
+
 
 ## Base de Dados
 
 - Por se tratar de uma POC, esta API esta utizando um banco NoSQL (MongoDb) no mLab (https://mlab.com).
 <br>
-<br>
+
 
 ## Guia de instalação
 
@@ -27,7 +26,7 @@ Porva de conceito de API REST desenvolvida em Node que realizará operações em
     npm install
     ```
 <br>
-<br>
+
 
 ## Como executar
 
