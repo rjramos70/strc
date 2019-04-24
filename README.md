@@ -61,6 +61,7 @@ Esta API tem os seguintes métodos implementados:
 
 **OBSERVAÇÃO**: _Como se trata de uma POC, não foi implementado criptografia e nem camada de autenticação._
 <br>
+<br>
 
 ## Linguagem de programação
 
