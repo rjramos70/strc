@@ -75,3 +75,27 @@ exports.create = function(req, res){
         res.status(200).send({ 'message':`Funcionario criado com sucesso!`});
     })
 }
+
+/**
+ * Pesquisa funcionários por parte do nome e/ou idade e/ou parte do cargo
+ */
+exports.pesquisar = function(req, res){
+   
+    var jsons = [];
+
+    req.body.nome ? jsons.push({nome:{$regex: req.body.nome, $options: 'i'}}) : {};
+    req.body.idade? jsons.push({idade : req.body.idade}) + ',' : {}; 
+    req.body.cargo? jsons.push({cargo:{$regex: req.body.cargo, $options: 'i'}}) + ',' : {};
+
+    var criterios = {
+        $or: jsons
+    };
+
+    Funcionario.find(criterios , function(err, funcionarios){
+        if(err){
+            res.status(500).send(err);
+        }
+        console.log(`Pesquisando funcionários !`);
+        res.status(200).send(funcionarios);
+    });
+}

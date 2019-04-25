@@ -54,6 +54,7 @@ Esta API tem os seguintes métodos implementados:
 - POST  
 
     - create: método responsável pela criação do funcionário, onde no corpo da requisição devemos enviar os campos nome, idade e cargo.
+    - pesquisar: método responsável por pesquisar funcionários com base em parte do nome e/ou cargo, e/ou idade.
 
 
 - DELETE
