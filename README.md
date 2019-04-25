@@ -42,24 +42,24 @@ Esta API tem os seguintes métodos implementados:
 
 - GET
 
-    - listAll: método que retorna a lista de todos os funcionários cadastrados.
-    - getById: método que retorna o funcioário com base no ID passado como parametro na URL.
+    - **listAll:** método que retorna a lista de todos os funcionários cadastrados.
+    - **getById:** método que retorna o funcioário com base no ID passado como parametro na URL.
 
 
 - PUT
 
-    - update: método que atualizado o funcioário com base no ID passado como parâmetro na URL, além de nome, idade e cargo passado no corpo da requisição.
+    - **update:** método que atualizado o funcioário com base no ID passado como parâmetro na URL, além de nome, idade e cargo passado no corpo da requisição.
 
 
 - POST  
 
-    - create: método responsável pela criação do funcionário, onde no corpo da requisição devemos enviar os campos nome, idade e cargo.
-    - pesquisar: método responsável por pesquisar funcionários com base em parte do nome e/ou cargo, e/ou idade.
+    - **create:** método responsável pela criação do funcionário, onde no corpo da requisição devemos enviar os campos nome, idade e cargo.
+    - **pesquisar:** método responsável por pesquisar funcionários com base em parte do nome e/ou cargo, e/ou idade.
 
 
 - DELETE
 
-    - delete: métdo que remove o funcionário com base no ID passado na URL. 
+    - **delete:** métdo que remove o funcionário com base no ID passado na URL. 
 <br>
 
 **OBSERVAÇÃO**: _Como se trata de uma POC, não foi implementado criptografia e nem camada de autenticação._
