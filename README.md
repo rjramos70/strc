@@ -10,7 +10,7 @@ Prova de conceito de API REST desenvolvida em Node que realizará operações em
 <br>
 
 
-### Base de Dados
+## Base de Dados
 
 - Para deixarmos a aplicação mais escalável e menos acoplada, e visando a segregação de responsabilidade, foi utilizado nesta API um banco de dados NoSQL (MongoDb) no mLab (https://mlab.com).
 <br>
